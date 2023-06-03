@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 main() {
   WidgetsFlutterBinding.ensureInitialized();
-  NotificationManager().initNotification();
+  NotificationManager notificationManager = NotificationManager();
   runApp(const MyApp());
 }
 
