@@ -95,13 +95,13 @@ class _CountDownPageState extends State<CountDownPage>
                     context: context,
                     builder: (context) {
                       return AlertDialog(
-                        title: Text("Sayı Gir"),
+                        title: Text("Sayaç"),
                         content: TextField(
                           onChanged: (value) {
                             valueText = value;
                           },
                           controller: textFieldController,
-                          decoration: InputDecoration(hintText: "Sayı Gir"),
+                          decoration: InputDecoration(hintText: "Sayı Giriniz"),
                         ),
                         actions: [
                           MaterialButton(

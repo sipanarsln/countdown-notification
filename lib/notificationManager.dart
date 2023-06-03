@@ -43,8 +43,8 @@ class NotificationManager {
 
     NotificationDetails notificationDetails =
         NotificationDetails(android: androidNotificationDetails);
-    await notificationsPlugin.show(0, 'Çieçğinizin size ihtiyacı var',
-        'Sevginizi ondan', notificationDetails);
+    await notificationsPlugin.show(
+        0, 'Süre doldu', 'Süre doldu', notificationDetails);
   }
 
   Future<void> dispose() async {
